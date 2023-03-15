@@ -45,7 +45,6 @@ def llama_stream(
         if token: #neither empty string nor None
             try:
                 decoded = token.decode('utf-8')
-                generated += decoded
 
                 trimmed_prompt = prompt
                 if trim_prompt > 0:
@@ -58,6 +57,8 @@ def llama_stream(
                     user_input = input()
                     process.stdin.write(user_input.encode('utf-8') + b'\n')
                     process.stdin.flush()
+                
+                generated += decoded
                 token = b''
             except UnicodeDecodeError:
                 continue
