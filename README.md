@@ -1,6 +1,6 @@
 # LLaMA.py
 
-> **NOTICE: Deprecation** I originally wrote this script as a makeshift solution before a proper binding came out, and since there are projects like [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) providing working bindings to the latest llama.cpp (which updates faster than I can keep up), I'm no longer planning to maintain this repository and would like to kindly direct interest people to other solutions.
+> **NOTICE: Deprecation** I originally wrote this script as a makeshift solution before a proper binding came out, and since there are projects like [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) providing working bindings to the latest llama.cpp (which updates faster than I can keep up), I'm no longer planning to maintain this repository and would like to kindly direct interested people to other solutions.
 
 A quick and dirty script to call [llama.cpp](https://github.com/ggerganov/llama.cpp) in Python. Supports streaming and interactive mode.
 
